@@ -1,0 +1,20 @@
+.fights {
+  background-color: #000;
+  padding: 80px 160px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+  .fights {
+    padding: 50px 50px 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fights {
+    padding: 20px;
+  }
+}

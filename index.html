@@ -7,7 +7,72 @@
   <title>Правильные шахматы</title>
   <link rel="stylesheet" href="pages/index.css">
 </head>
-<body>
+<body class="main">
+  <header class="header">
+    <div class="header__logo"></div>
+    <div class="header__registration">
+      <p class="header__registration-phrase">Вступайте в клуб &#129125;</p>
+      <button class="header__button" type="button">Зарегистрироваться</button>
+    </div>
+  </header>
+  <section class="correct-chess">
+    <div class="correct-chess__rounds"></div>
+    <div class="correct-chess__club">Клуб</div>
+    <h1 class="correct-chess__title">Правильные шахматы</h1>
+    <p class="correct-chess__subtitle">Приходите к нам, играть в шахматы! Сразитесь классическом поединке, блиц состязании и бою с гройсмейстером. </p>
+    <img class="correct-chess__image" src="images/chess/blue.png" alt="Шахматная доска">
+  </section>
+  <section class="team">
+    <h2 class="team__title">Наша команда</h2>
+    <p class="team__subtitle">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно удовольствие!</p>
+    <ul class="team__grid">
+      <li class="team__card">
+        <img class="team__card-image" src="images/masters/alexander.png" alt="Андрей">
+        <h3 class="team__card-name">Андрей</h3>
+        <p class="team__card-job">Шахматист, писатель.</p>
+      </li>
+      <li class="team__card">
+        <img class="team__card-image" src="images/masters/nikita.png" alt="Никита">
+        <h3 class="team__card-name">Никита</h3>
+        <p class="team__card-job">Шахматист, кулинар.</p>
+      </li>
+      <li class="team__card">
+        <img class="team__card-image" src="images/masters/alex.png" alt="Алексей">
+        <h3 class="team__card-name">Алексей</h3>
+        <p class="team__card-job">Шахматист, геймер.</p>
+      </li>
+    </ul>
+  </section>
+  <section class="invitation">
+    <h2 class="invitation__title">Хочешь в комаду?</h2>
+    <p class="invitation__subtitle">Свяжись с нами и мы обсудим все детали присоеденения к команде.</p>
+    <div class="invitation__round-first"></div>
+    <div class="invitation__round-second"></div>
+    <img class="invitation__half-round" src="images/rounds/half-round.png" alt="Половина круга">
+  </section>
+  <section class="fights">
+    <div class="fights__round"></div>
+    <h2 class="fights__title">Сражения</h2>
+    <p class="fights__subtitle">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки — сыграйте с нашими шахматистами.</p>
+    <ul class="fights__grid">
+      <li class="fights__card">
+        <img class="fights__image" src="images/fights/first.png" alt="Двое играют в шахматы">
+      </li>
+      <li class="fights__card">
+        <img class="fights__image" src="images/fights/second.png" alt="Шахматная доска">
+      </li>
+      <li class="fights__card">
+        <img class="fights__image" src="images/fights/third.png" alt="Передача хода сопернику">
+      </li>
+    </ul>
+    <img class="fights__chess" src="images/chess/green.png" alt="Шахматная доска">
+  </section>
+  <footer class="footer">
+    <div class="footer__logo"></div>
+    <button class="footer__button">Зарегистрироваться</button>
+    <p class="footer__text">Шахматный клуб в Москве.</p>
+    <p class="footer__copyright">&copy; Chees Club.</p>
+  </footer>
   <script src="scripts/index.js"></script>
 </body>
 </html>

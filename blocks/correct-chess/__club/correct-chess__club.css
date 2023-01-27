@@ -1,0 +1,21 @@
+.correct-chess__club {
+  background-color: #5036E6;
+  width: min-content;
+  padding: 18px 24px 18px 18px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #fff;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 90%;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .correct-chess__club {
+    padding: 14px 17px 14px 14px;
+    font-size: 12px;
+  }
+}

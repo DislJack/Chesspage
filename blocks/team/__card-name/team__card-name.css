@@ -1,0 +1,10 @@
+.team__card-name {
+  margin: 30px 0 0;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #fff;
+}

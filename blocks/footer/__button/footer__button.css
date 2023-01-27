@@ -1,0 +1,27 @@
+.footer__button {
+  background-color: #009465;
+  border-radius: 8px;
+  padding: 14px 28px;
+  border: none;
+  margin-top: 60px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.footer__button:hover {
+  background-color: #066C4C;
+}
+
+@media (max-width: 767px) {
+  .footer__button {
+    padding: 6px 16px;
+    font-size: 10px;
+    margin-top: 40px;
+  }
+}

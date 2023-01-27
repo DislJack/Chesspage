@@ -1,0 +1,25 @@
+.invitation__round-first {
+  background-image: url(../../../images/rounds/almost-black.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 440px 440px;
+  width: 440px;
+  height: 440px;
+  position: absolute;
+  left: -220px;
+  bottom: 60px;
+}
+
+@media (max-width: 1360px) {
+  .invitation__round-first {
+    transform: rotate(180deg);
+    left: auto;
+    right: -220px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .invitation__round-first {
+    display: none;
+  }
+}

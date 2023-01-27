@@ -1,0 +1,23 @@
+.fights__chess {
+  display: block;
+  margin-top: 110px;
+  width: 416px;
+  height: 104px;
+  align-self: end;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 1023px) {
+  .fights__chess {
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fights__chess {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+  }
+}

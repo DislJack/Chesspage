@@ -1,0 +1,18 @@
+.fights__subtitle {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+  margin: 40px 0 0 0;
+  width: 500px;
+}
+
+@media (max-width: 767px) {
+  .fights__subtitle {
+    margin-top: 20px;
+    font-size: 12px;
+    width: 100%;
+  }
+}
