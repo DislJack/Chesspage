@@ -1,0 +1,16 @@
+.footer__text {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+  margin: 60px 0 0;
+}
+
+@media (max-width: 767px) {
+  .footer__text {
+    font-size: 12px;
+    margin-top: 40px;
+  }
+}

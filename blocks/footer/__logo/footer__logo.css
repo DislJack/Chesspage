@@ -1,0 +1,8 @@
+.footer__logo {
+  background-image: url(../../../images/puppet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 38px 54px;
+  width: 38px;
+  height: 54px;
+}

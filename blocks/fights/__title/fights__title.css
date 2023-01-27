@@ -1,0 +1,15 @@
+.fights__title {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90%;
+  color: #fff;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .fights__title {
+    font-size: 40px;
+  }
+}

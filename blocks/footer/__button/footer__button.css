@@ -1,8 +1,9 @@
-.header__button {
+.footer__button {
   background-color: #009465;
-  border: none;
   border-radius: 8px;
   padding: 14px 28px;
+  border: none;
+  margin-top: 60px;
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 600;
@@ -10,22 +11,17 @@
   line-height: 18px;
   color: #fff;
   transition: 0.2s;
+  cursor: pointer;
 }
 
-.header__button:hover {
+.footer__button:hover {
   background-color: #066C4C;
 }
 
-@media (max-width: 1023px) {
-  .header__button {
-    padding: 13px 22px;
-    font-size: 13px;
-  }
-}
-
 @media (max-width: 767px) {
-  .header__button {
+  .footer__button {
     padding: 6px 16px;
     font-size: 10px;
+    margin-top: 40px;
   }
 }

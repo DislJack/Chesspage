@@ -37,3 +37,20 @@
 @import url(../blocks/invitation/__title/invitation__title.css);
 @import url(../blocks/invitation/__subtitle/invitation__subtitle.css);
 @import url(../blocks/invitation/__half-round/invitation__half-round.css);
+
+/* Импорт сеции fights */
+@import url(../blocks/fights/fights.css);
+@import url(../blocks/fights/__title/fights__title.css);
+@import url(../blocks/fights/__subtitle/fights__subtitle.css);
+@import url(../blocks/fights/__round/fights__round.css);
+@import url(../blocks/fights/__grid/fights__grid.css);
+@import url(../blocks/fights/__image/fights__image.css);
+@import url(../blocks/fights/__chess/fights__chess.css);
+@import url(../blocks/fights/__card/fights__card.css);
+
+/* Импорт footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

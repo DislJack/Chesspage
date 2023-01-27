@@ -1,0 +1,14 @@
+.fights__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  list-style-type: none;
+  padding: 0;
+  margin: 110px 0 0 0;
+}
+
+@media (max-width: 1023px) {
+  .fights__grid {
+    display: none;
+  }
+}
