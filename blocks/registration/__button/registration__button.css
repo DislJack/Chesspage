@@ -1,0 +1,26 @@
+.registration__button {
+  margin: 233px auto 0;
+  width: 218px;
+  padding: 15px 28px;
+  background-color: #009465;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+
+@media (max-width: 1023px) {
+  .registration__button {
+    margin: 223px auto 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .registration__button {
+    margin-top: 133px;
+  }
+}
