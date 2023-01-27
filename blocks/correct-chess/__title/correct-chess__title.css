@@ -1,0 +1,20 @@
+.correct-chess__title {
+  margin: 70px 0 0;
+  color: #fff;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90%;
+  width: 500px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .correct-chess__title {
+    margin-top: 60px;
+    font-size: 40px;
+    width: 100%;
+  }
+}
