@@ -10,6 +10,8 @@ const footerButton = document.querySelector('.footer__button');
 const registration = document.querySelector('.registration');
 const teamSlider = document.querySelectorAll('li[name=team-item]');
 const fightsSlider = document.querySelectorAll('li[name=fights-item]');
+const cardPositionTeam = document.querySelectorAll('li[name=team-count]');
+const cardPositionFights = document.querySelectorAll('li[name=fights-count]');
 let step = 0;
 
 // Функции
@@ -56,6 +58,26 @@ function moveNextSlide(arr) {
   }
 }
 
+// Функция закрашивания шарика при перелистывании карточки
+function countSlide(arr) {
+  if (step >= arr.length) {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i].classList.contains('cards__count_type_opened')) {
+        arr[i].classList.remove('cards__count_type_opened');
+      }
+    }
+    step = 0;
+    arr[step].classList.add('cards__count_type_opened');
+  } else {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i].classList.contains('cards__count_type_opened')) {
+        arr[i].classList.remove('cards__count_type_opened');
+      }
+    }
+    arr[step].classList.add('cards__count_type_opened');
+  }
+}
+
 // Слушатели и код
 // Клики на кнопочки на tablet версии для пролистывания слайдов
 teamLeft.addEventListener('click', () => {
@@ -82,4 +104,10 @@ setInterval(() => {
   step++;
   moveNextSlide(teamSlider);
   moveNextSlide(fightsSlider);
+  countSlide(cardPositionTeam);
+  countSlide(cardPositionFights);
 }, 3000);
+
+// Смена цвета кружочка показывающий позицию слайда
+cardPositionTeam[step].classList.add('cards__count_type_opened');
+cardPositionFights[step].classList.add('cards__count_type_opened');

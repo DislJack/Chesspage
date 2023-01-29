@@ -1,0 +1,15 @@
+.cards__count {
+  display: none;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  opacity: 0.2;
+}
+
+@media (max-width: 767px) {
+  .cards__count {
+    display: block;
+  }
+}

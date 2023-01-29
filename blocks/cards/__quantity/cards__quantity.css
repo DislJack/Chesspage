@@ -1,0 +1,16 @@
+.cards__quantity {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 767px) {
+  .cards__quantity {
+    display: flex;
+    margin: 30px auto 0;
+  }
+}
