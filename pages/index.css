@@ -20,15 +20,21 @@
 @import url(../blocks/correct-chess/__image/correct-chess__image.css);
 @import url(../blocks/correct-chess/__rounds/correct-chess__rounds.css);
 
+/* Импорт стилей для карточек */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__item/_type/cards__item_type_opened.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__name/cards__name.css);
+@import url(../blocks/cards/__job/cards__job.css);
+@import url(../blocks/cards/__count/cards__count.css);
+@import url(../blocks/cards/__quantity/cards__quantity.css);
+@import url(../blocks/cards/__count/_type/cards__count_type_opened.css);
+
 /* Импорты секции team */
 @import url(../blocks/team/team.css);
 @import url(../blocks/team/__title/team__title.css);
 @import url(../blocks/team/__subtitle/team__subtitle.css);
-@import url(../blocks/team/__grid/team__grid.css);
-@import url(../blocks/team/__card/team__card.css);
-@import url(../blocks/team/__card-image/team__card-image.css);
-@import url(../blocks/team/__card-name/team__card-name.css);
-@import url(../blocks/team/__card-job/team__card-job.css);
 @import url(../blocks/team/__button/team__button.css);
 
 /* Импорт секции invitation */
@@ -44,10 +50,7 @@
 @import url(../blocks/fights/__title/fights__title.css);
 @import url(../blocks/fights/__subtitle/fights__subtitle.css);
 @import url(../blocks/fights/__round/fights__round.css);
-@import url(../blocks/fights/__grid/fights__grid.css);
-@import url(../blocks/fights/__image/fights__image.css);
 @import url(../blocks/fights/__chess/fights__chess.css);
-@import url(../blocks/fights/__card/fights__card.css);
 @import url(../blocks/fights/__button/fights__button.css);
 
 /* Импорт footer */

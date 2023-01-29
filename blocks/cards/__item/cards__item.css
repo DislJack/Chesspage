@@ -1,5 +1,6 @@
 @media (max-width: 767px) {
-  .team__card {
+  .cards__item {
+    display: none;
     text-align: center;
   }
 }
