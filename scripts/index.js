@@ -39,42 +39,34 @@ function moveRight(element) {
 }
 
 // Функция перелистывания карточек
-function moveNextSlide(arr) {
+function moveNextSlide(arr, array) {
   if (step >= arr.length) {
     for (let i = 0; i < arr.length; i++) {
       if (arr[i].classList.contains('cards__item_type_opened')) {
         arr[i].classList.remove('cards__item_type_opened');
       }
     }
+    for (let i = 0; i < array.length; i++) {
+      if (array[i].classList.contains('cards__count_type_opened')) {
+        array[i].classList.remove('cards__count_type_opened');
+      }
+    }
     step = 0;
     arr[step].classList.add('cards__item_type_opened');
+    array[step].classList.add('cards__count_type_opened');
   } else {
     for (let i = 0; i < arr.length; i++) {
       if (arr[i].classList.contains('cards__item_type_opened')) {
         arr[i].classList.remove('cards__item_type_opened');
       }
     }
+    for (let i = 0; i < array.length; i++) {
+      if (array[i].classList.contains('cards__count_type_opened')) {
+        array[i].classList.remove('cards__count_type_opened');
+      }
+    }
     arr[step].classList.add('cards__item_type_opened');
-  }
-}
-
-// Функция закрашивания шарика при перелистывании карточки
-function countSlide(arr) {
-  if (step >= arr.length) {
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i].classList.contains('cards__count_type_opened')) {
-        arr[i].classList.remove('cards__count_type_opened');
-      }
-    }
-    step = 0;
-    arr[step].classList.add('cards__count_type_opened');
-  } else {
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i].classList.contains('cards__count_type_opened')) {
-        arr[i].classList.remove('cards__count_type_opened');
-      }
-    }
-    arr[step].classList.add('cards__count_type_opened');
+    array[step].classList.add('cards__count_type_opened');
   }
 }
 
@@ -97,17 +89,14 @@ fightsRight.addEventListener('click', () => {
 headerButton.addEventListener('click', openRegistration);
 footerButton.addEventListener('click', openRegistration);
 
+// Смена цвета кружочка показывающий позицию слайда
+cardPositionTeam[step].classList.add('cards__count_type_opened');
+cardPositionFights[step].classList.add('cards__count_type_opened');
 // Клики и смена карточек на mobile версии
 teamSlider[step].classList.add('team__card_type_opened');
 fightsSlider[step].classList.add('fights__card_type_opened');
 setInterval(() => {
   step++;
-  moveNextSlide(teamSlider);
-  moveNextSlide(fightsSlider);
-  countSlide(cardPositionTeam);
-  countSlide(cardPositionFights);
+  moveNextSlide(teamSlider, cardPositionTeam);
+  moveNextSlide(fightsSlider, cardPositionFights);
 }, 3000);
-
-// Смена цвета кружочка показывающий позицию слайда
-cardPositionTeam[step].classList.add('cards__count_type_opened');
-cardPositionFights[step].classList.add('cards__count_type_opened');
