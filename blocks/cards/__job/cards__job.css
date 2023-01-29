@@ -1,4 +1,4 @@
-.team__card-job {
+.cards__job {
   margin: 10px 0 0;
   font-family: 'Noto Sans';
   font-style: normal;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 767px) {
-  .team__card-job {
+  .cards__job {
     font-size: 12px;
     margin-top: 5px;
   }

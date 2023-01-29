@@ -25,25 +25,28 @@
   <section class="team">
     <h2 class="team__title">Наша команда</h2>
     <p class="team__subtitle">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно удовольствие!</p>
-    <button class="team__button" type="button" name="team-left">&#129144;</button>
-    <button class="team__button" type="button" name="team-right">&#129146;</button>
-    <ul class="team__grid">
-      <li class="team__card">
-        <img class="team__card-image" src="images/masters/alexander.png" alt="Андрей">
-        <h3 class="team__card-name">Андрей</h3>
-        <p class="team__card-job">Шахматист, писатель.</p>
+    <button class="team__button" type="button" name="team-left">&larr;</button>
+    <button class="team__button" type="button" name="team-right">&rarr;</button>
+    <ul class="cards" name="team-grid">
+      <li class="cards__item" name="team-item">
+        <img class="cards__image" src="images/masters/alexander.png" alt="Андрей">
+        <h3 class="cards__name">Андрей</h3>
+        <p class="cards__job">Шахматист, писатель.</p>
       </li>
-      <li class="team__card">
-        <img class="team__card-image" src="images/masters/nikita.png" alt="Никита">
-        <h3 class="team__card-name">Никита</h3>
-        <p class="team__card-job">Шахматист, кулинар.</p>
+      <li class="cards__item" name="team-item">
+        <img class="cards__image" src="images/masters/nikita.png" alt="Никита">
+        <h3 class="cards__name">Никита</h3>
+        <p class="cards__job">Шахматист, кулинар.</p>
       </li>
-      <li class="team__card">
-        <img class="team__card-image" src="images/masters/alex.png" alt="Алексей">
-        <h3 class="team__card-name">Алексей</h3>
-        <p class="team__card-job">Шахматист, геймер.</p>
+      <li class="cards__item" name="team-item">
+        <img class="cards__image" src="images/masters/alex.png" alt="Алексей">
+        <h3 class="cards__name">Алексей</h3>
+        <p class="cards__job">Шахматист, геймер.</p>
       </li>
     </ul>
+    <!-- <ul>
+      <li class="team__count"></li>
+    </ul> -->
   </section>
   <section class="invitation">
     <h2 class="invitation__title">Хочешь в комаду?</h2>
@@ -56,17 +59,17 @@
     <div class="fights__round"></div>
     <h2 class="fights__title">Сражения</h2>
     <p class="fights__subtitle">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки — сыграйте с нашими шахматистами.</p>
-    <button class="fights__button" type="button" name="fights-left">&#129144;</button>
-    <button class="fights__button" type="button" name="fights-right">&#129146;</button>
-    <ul class="fights__grid">
-      <li class="fights__card">
-        <img class="fights__image" src="images/fights/first.png" alt="Двое играют в шахматы">
+    <button class="fights__button" type="button" name="fights-left">&larr;</button>
+    <button class="fights__button" type="button" name="fights-right">&rarr;</button>
+    <ul class="cards" name="fights-grid">
+      <li class="cards__item" name="fights-item">
+        <img class="cards__image" src="images/fights/first.png" alt="Двое играют в шахматы">
       </li>
-      <li class="fights__card">
-        <img class="fights__image" src="images/fights/second.png" alt="Шахматная доска">
+      <li class="cards__item" name="fights-item">
+        <img class="cards__image" src="images/fights/second.png" alt="Шахматная доска">
       </li>
-      <li class="fights__card">
-        <img class="fights__image" src="images/fights/third.png" alt="Передача хода сопернику">
+      <li class="cards__item" name="fights-item">
+        <img class="cards__image" src="images/fights/third.png" alt="Передача хода сопернику">
       </li>
     </ul>
     <img class="fights__chess" src="images/chess/green.png" alt="Шахматная доска">

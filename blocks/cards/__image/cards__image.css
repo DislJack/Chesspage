@@ -1,18 +1,18 @@
-.fights__image {
+.cards__image {
+  width: 100%;
   display: block;
   border-radius: 15px;
-  width: 100%;
 }
 
 @media (max-width: 1023px) {
-  .fights__image {
+  .cards__image {
     width: 320px;
     height: 320px;
   }
 }
 
 @media (max-width: 767px) {
-  .fights__image {
+  .cards__image {
     width: 100%;
     height: auto;
   }

@@ -2,7 +2,7 @@
   position: absolute;
   bottom: 323px;
   height: min-content;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.8);;
   border: none;
   border-radius: 15px;
   opacity: 1;
@@ -12,11 +12,11 @@
   padding: 10px;
   cursor: pointer;
   z-index: 3;
+  color: #fff
 }
 
 .fights__button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .fights__button[name='fights-left'] {

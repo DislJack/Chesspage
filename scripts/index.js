@@ -1,46 +1,85 @@
-const teamGrid = document.querySelector('.team__grid');
+// Переменные
+const teamGrid = document.querySelector('ul[name=team-grid]');
 const teamLeft = document.querySelector('button[name=team-left]');
 const teamRight = document.querySelector('button[name=team-right]');
 const fightsLeft = document.querySelector('button[name=fights-left]');
 const fightsRight = document.querySelector('button[name=fights-right]');
-const fightsGrid = document.querySelector('.fights__grid');
+const fightsGrid = document.querySelector('ul[name=fights-grid]');
 const headerButton = document.querySelector('.header__button');
 const footerButton = document.querySelector('.footer__button');
 const registration = document.querySelector('.registration');
+const teamSlider = document.querySelectorAll('li[name=team-item]');
+const fightsSlider = document.querySelectorAll('li[name=fights-item]');
+let step = 0;
 
+// Функции
+// Функция появления окна регистрации
 function openRegistration() {
   if (registration.classList.contains('registration_type_opened') === false) {
     registration.classList.add('registration_type_opened');
   }
 }
 
+// Функция перемещения влево картинок на tablet разрешении
+function moveLeft(element) {
+  element.scrollTo({
+    left: -370,
+    behavior: 'smooth'
+  });
+}
+
+// Функция премещения вправо картинок на tablet разрешении
+function moveRight(element) {
+  element.scrollTo({
+    left: 370,
+    behavior: 'smooth'
+  });
+}
+
+// Функция перелистывания карточек
+function moveNextSlide(arr) {
+  if (step >= arr.length) {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i].classList.contains('cards__item_type_opened')) {
+        arr[i].classList.remove('cards__item_type_opened');
+      }
+    }
+    step = 0;
+    arr[step].classList.add('cards__item_type_opened');
+  } else {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i].classList.contains('cards__item_type_opened')) {
+        arr[i].classList.remove('cards__item_type_opened');
+      }
+    }
+    arr[step].classList.add('cards__item_type_opened');
+  }
+}
+
+// Слушатели и код
+// Клики на кнопочки на tablet версии для пролистывания слайдов
 teamLeft.addEventListener('click', () => {
-  teamGrid.scrollTo({
-    left: -370,
-    behavior: 'smooth'
-  });
+  moveLeft(teamGrid);
 });
-
 teamRight.addEventListener('click', () => {
-  teamGrid.scrollTo({
-    left: 370,
-    behavior: 'smooth'
-  });
+  moveRight(teamGrid);
 })
-
 fightsLeft.addEventListener('click', () => {
-  fightsGrid.scrollTo({
-    left: -370,
-    behavior: 'smooth'
-  });
+  moveLeft(fightsGrid);
 });
-
 fightsRight.addEventListener('click', () => {
-  fightsGrid.scrollTo({
-    left: 370,
-    behavior: 'smooth'
-  });
+  moveRight(fightsGrid);
 })
 
+// Клики на кнопку Регистрации
 headerButton.addEventListener('click', openRegistration);
 footerButton.addEventListener('click', openRegistration);
+
+// Клики и смена карточек на mobile версии
+teamSlider[step].classList.add('team__card_type_opened');
+fightsSlider[step].classList.add('fights__card_type_opened');
+setInterval(() => {
+  step++;
+  moveNextSlide(teamSlider);
+  moveNextSlide(fightsSlider);
+}, 3000);
