@@ -1,0 +1,40 @@
+.team__button {
+  position: absolute;
+  bottom: 145px;
+  height: min-content;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  opacity: 1;
+  transition: 0.2s;
+  font-size: 30px;
+  display: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.team__button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+.team__button[name='team-left'] {
+  left: 50px;
+}
+
+.team__button[name='team-right'] {
+  right: 50px;
+}
+
+@media (max-width: 1023px) {
+  .team__button {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .team__button {
+    display: none;
+  }
+}

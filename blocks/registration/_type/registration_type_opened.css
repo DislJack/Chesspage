@@ -1,5 +1,5 @@
 .registration_type_opened {
   visibility: visible;
   opacity: 1;
-  z-index: 3;
+  z-index: 5;
 }

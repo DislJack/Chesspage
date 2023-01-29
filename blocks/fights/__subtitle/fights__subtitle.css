@@ -9,10 +9,17 @@
   width: 500px;
 }
 
+@media (max-width: 1023px) {
+  .fights__subtitle {
+    padding: 0 50px;
+  }
+}
+
 @media (max-width: 767px) {
   .fights__subtitle {
     margin-top: 20px;
     font-size: 12px;
     width: 100%;
+    padding: 0;
   }
 }

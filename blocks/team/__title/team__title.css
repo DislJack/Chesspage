@@ -8,8 +8,15 @@
   margin: 0;
 }
 
+@media (max-width: 1023px) {
+  .team__title {
+    padding: 0 50px;
+  }
+}
+
 @media (max-width: 767px) {
   .team__title {
     font-size: 40px;
+    padding: 0;
   }
 }
