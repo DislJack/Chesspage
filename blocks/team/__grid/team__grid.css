@@ -5,10 +5,22 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 80px;
+  position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 1023px) {
   .team__grid {
-    display: none;
+    margin-top: 140px;
+    gap: 28px;
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .team__grid {
+    padding: 0;
+    margin-top: 60px;
+    grid-template-columns: 1fr;
   }
 }

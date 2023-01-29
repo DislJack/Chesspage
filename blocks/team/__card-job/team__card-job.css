@@ -7,3 +7,10 @@
   line-height: 130%;
   color: #fff;
 }
+
+@media (max-width: 767px) {
+  .team__card-job {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}

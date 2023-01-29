@@ -8,3 +8,10 @@
   text-transform: uppercase;
   color: #fff;
 }
+
+@media (max-width: 767px) {
+  .team__card-name {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}

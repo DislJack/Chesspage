@@ -29,6 +29,7 @@
 @import url(../blocks/team/__card-image/team__card-image.css);
 @import url(../blocks/team/__card-name/team__card-name.css);
 @import url(../blocks/team/__card-job/team__card-job.css);
+@import url(../blocks/team/__button/team__button.css);
 
 /* Импорт секции invitation */
 @import url(../blocks/invitation/invitation.css);
@@ -47,6 +48,7 @@
 @import url(../blocks/fights/__image/fights__image.css);
 @import url(../blocks/fights/__chess/fights__chess.css);
 @import url(../blocks/fights/__card/fights__card.css);
+@import url(../blocks/fights/__button/fights__button.css);
 
 /* Импорт footer */
 @import url(../blocks/footer/footer.css);
