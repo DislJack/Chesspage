@@ -1,7 +1,7 @@
 .correct-chess__subtitle {
   margin: 40px 0 0;
   color: #fff;
-  font-family: 'Noto Sans';
+  font-family: 'Noto Sans', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -16,5 +16,6 @@
     margin-top: 20px;
     font-size: 12px;
     width: 100%;
+    line-height: 135%;
   }
 }

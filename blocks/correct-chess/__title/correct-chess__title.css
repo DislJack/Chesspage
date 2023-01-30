@@ -1,7 +1,7 @@
 .correct-chess__title {
   margin: 70px 0 0;
   color: #fff;
-  font-family: 'Noto Sans';
+  font-family: 'Noto Sans', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 70px;
@@ -13,7 +13,7 @@
 
 @media (max-width: 767px) {
   .correct-chess__title {
-    margin-top: 60px;
+    margin-top: 61px;
     font-size: 40px;
     width: 100%;
   }
