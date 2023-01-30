@@ -11,5 +11,6 @@
 @media (max-width: 767px) {
   .cards__count {
     display: block;
+    transition: opacity 0.4s linear;
   }
 }

@@ -1,5 +1,6 @@
 .team__button {
   position: absolute;
+  font-family: 'Noto Sans', 'Arial', sans-serif;
   bottom: 145px;
   height: min-content;
   background-color: rgba(0, 0, 0, 0.8);
