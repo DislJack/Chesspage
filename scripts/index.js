@@ -1,17 +1,17 @@
 // Переменные
-const teamGrid = document.querySelector('ul[name=team-grid]');
+const teamGrid = document.querySelector('.cards__team');
 const teamLeft = document.querySelector('button[name=team-left]');
 const teamRight = document.querySelector('button[name=team-right]');
 const fightsLeft = document.querySelector('button[name=fights-left]');
 const fightsRight = document.querySelector('button[name=fights-right]');
-const fightsGrid = document.querySelector('ul[name=fights-grid]');
+const fightsGrid = document.querySelector('.cards__fights');
 const headerButton = document.querySelector('.header__button');
 const footerButton = document.querySelector('.footer__button');
 const registration = document.querySelector('.registration');
-const teamSlider = document.querySelectorAll('li[name=team-item]');
-const fightsSlider = document.querySelectorAll('li[name=fights-item]');
-const cardPositionTeam = document.querySelectorAll('li[name=team-count]');
-const cardPositionFights = document.querySelectorAll('li[name=fights-count]');
+const teamSlider = document.querySelectorAll('.cards__item_type_team');
+const fightsSlider = document.querySelectorAll('.cards__item_type_fights');
+const cardPositionTeam = document.querySelectorAll('.cards__count_type_team');
+const cardPositionFights = document.querySelectorAll('.cards__count_type_fights');
 let step = 0;
 
 // Функции

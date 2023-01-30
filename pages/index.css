@@ -24,12 +24,18 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__item/_type/cards__item_type_opened.css);
+@import url(../blocks/cards/__item/_type/cards__item_type_team.css);
+@import url(../blocks/cards/__item/_type/cards__item_type_fights.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__name/cards__name.css);
 @import url(../blocks/cards/__job/cards__job.css);
 @import url(../blocks/cards/__count/cards__count.css);
 @import url(../blocks/cards/__quantity/cards__quantity.css);
 @import url(../blocks/cards/__count/_type/cards__count_type_opened.css);
+@import url(../blocks/cards/__count/_type/cards__count_type_team.css);
+@import url(../blocks/cards/__count/_type/cards__count_type_fights.css);
+@import url(../blocks/cards/__team/cards__team.css);
+@import url(../blocks/cards/__fights/cards__fights.css);
 
 /* Импорты секции team */
 @import url(../blocks/team/team.css);
