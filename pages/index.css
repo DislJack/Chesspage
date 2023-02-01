@@ -3,17 +3,27 @@
 /* Шрифты */
 @import url(../vendor/fonts/NotoSans.css);
 
-@import url(../blocks/main/main.css);
+/* Общие компоненты */
+@import url(../blocks/title/title.css);
+@import url(../blocks/paragraph/paragraph.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_size/button_size_header.css);
+@import url(../blocks/button/_type/button_type_registration.css);
+@import url(../blocks/button/_type/button_type_arrow.css);
 
 /* Шапка сайта */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__registration/header__registration.css);
-@import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__registration-phrase/header__registration-phrase.css);
-@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__arrow-icon/header__arrow-icon.css);
 
 /* Импорты секции correct-chess */
 @import url(../blocks/correct-chess/correct-chess.css);
+@import url(../blocks/correct-chess/__wrapper/correct-chess__wrapper.css);
 @import url(../blocks/correct-chess/__club/correct-chess__club.css);
 @import url(../blocks/correct-chess/__title/correct-chess__title.css);
 @import url(../blocks/correct-chess/__subtitle/correct-chess__subtitle.css);
@@ -24,51 +34,45 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__item/_type/cards__item_type_opened.css);
-@import url(../blocks/cards/__item/_type/cards__item_type_team.css);
-@import url(../blocks/cards/__item/_type/cards__item_type_fights.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__name/cards__name.css);
 @import url(../blocks/cards/__job/cards__job.css);
-@import url(../blocks/cards/__count/cards__count.css);
-@import url(../blocks/cards/__quantity/cards__quantity.css);
-@import url(../blocks/cards/__count/_type/cards__count_type_opened.css);
-@import url(../blocks/cards/__count/_type/cards__count_type_team.css);
-@import url(../blocks/cards/__count/_type/cards__count_type_fights.css);
-@import url(../blocks/cards/__team/cards__team.css);
-@import url(../blocks/cards/__fights/cards__fights.css);
+
+/* Импорт стилей для отображения количества карточек */
+@import url(../blocks/quantity/quantity.css);
+@import url(../blocks/quantity/__count/quantity__count.css);
+@import url(../blocks/quantity/__count/_type/quantity__count_type_opened.css);
 
 /* Импорты секции team */
 @import url(../blocks/team/team.css);
+@import url(../blocks/team/__wrapper/team__wrapper.css);
 @import url(../blocks/team/__title/team__title.css);
 @import url(../blocks/team/__subtitle/team__subtitle.css);
-@import url(../blocks/team/__button/team__button.css);
 
 /* Импорт секции invitation */
 @import url(../blocks/invitation/invitation.css);
+@import url(../blocks/invitation/__wrapper/invitation__wrapper.css);
 @import url(../blocks/invitation/__round-first/invitation__round-first.css);
 @import url(../blocks/invitation/__round-second/invitation__round-second.css);
 @import url(../blocks/invitation/__title/invitation__title.css);
 @import url(../blocks/invitation/__subtitle/invitation__subtitle.css);
-@import url(../blocks/invitation/__half-round/invitation__half-round.css);
 
 /* Импорт сеции fights */
 @import url(../blocks/fights/fights.css);
+@import url(../blocks/fights/__wrapper/fights__wrapper.css);
 @import url(../blocks/fights/__title/fights__title.css);
 @import url(../blocks/fights/__subtitle/fights__subtitle.css);
 @import url(../blocks/fights/__round/fights__round.css);
 @import url(../blocks/fights/__chess/fights__chess.css);
-@import url(../blocks/fights/__button/fights__button.css);
 
 /* Импорт footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__logo/footer__logo.css);
-@import url(../blocks/footer/__button/footer__button.css);
-@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 /* Импорт формы регистрации */
 @import url(../blocks/registration/registration.css);
-@import url(../blocks/registration/__logo/registration__logo.css);
 @import url(../blocks/registration/__title/registration__title.css);
 @import url(../blocks/registration/__form/registration__form.css);
 @import url(../blocks/registration/__input/registration__input.css);

@@ -1,0 +1,17 @@
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 160px 0;
+}
+
+@media (max-width: 1023px) {
+  .header__wrapper {
+    padding: 26px 50px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__wrapper {
+    padding: 16px 20px 0;
+  }
+}

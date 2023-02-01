@@ -33,6 +33,12 @@
 
 @media (max-width: 767px) {
   .invitation__round-second {
-    display: none;
+    width: 100%;
+    height: auto;
+    min-height: 280px;
+    background-size: contain;
+    left: 0;
+    bottom: -140px;
+    right: 0;
   }
 }

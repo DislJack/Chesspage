@@ -1,0 +1,44 @@
+.button_type_arrow {
+  display: none;
+  position: absolute;
+  height: min-content;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  z-index: 3;
+}
+
+.button_type_arrow:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button_type_arrow[name='team-left'] {
+  left: 50px;
+  bottom: 145px;
+}
+
+.button_type_arrow[name='fights-left'] {
+  left: 50px;
+  bottom: 323px;
+}
+
+.button_type_arrow[name='team-right'] {
+  right: 50px;
+  bottom: 145px;
+}
+
+.button_type_arrow[name='fights-right'] {
+  right: 50px;
+  bottom: 323px;
+}
+
+@media (max-width: 1023px) {
+  .button_type_arrow {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .button_type_arrow {
+    display: none;
+  }
+}

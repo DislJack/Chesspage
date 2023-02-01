@@ -1,14 +1,5 @@
 .invitation__title {
-  font-family: 'Noto Sans', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 70px;
-  line-height: 90%;
-  color: #fff;
   width: 520px;
-  margin: 0;
-  position: relative;
-  z-index: 2;
 }
 
 @media (max-width: 1023px) {
@@ -20,6 +11,5 @@
 @media (max-width: 767px) {
   .invitation__title {
     width: 100%;
-    font-size: 40px;
   }
 }

@@ -1,0 +1,17 @@
+.fights__wrapper {
+  padding: 80px 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1023px) {
+  .fights__wrapper {
+    padding: 50px 0 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fights__wrapper {
+    padding: 20px;
+  }
+}

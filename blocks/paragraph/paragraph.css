@@ -1,0 +1,18 @@
+.paragraph {
+  font-family: 'Noto Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .paragraph {
+    font-size: 12px;
+    line-height: 135%;
+  }
+}
