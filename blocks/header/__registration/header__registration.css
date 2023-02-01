@@ -1,11 +1,11 @@
 .header__registration {
   display: flex;
-  gap: 50px;
+  gap: 52px;
   align-items: center;
 }
 
 @media (max-width: 1023px) {
   .header__registration {
-    gap: 30px;
+    gap: 32px;
   }
 }

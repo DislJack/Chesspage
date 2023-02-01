@@ -1,5 +1,9 @@
 .fights__chess {
   display: block;
+  background-image: url(../../../images/chess/green.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   margin-top: 110px;
   width: 416px;
   height: 104px;
@@ -19,6 +23,8 @@
   .fights__chess {
     width: 100%;
     height: auto;
+    background-position: bottom;
+    min-height: 70px;
     margin-top: 60px;
     padding: 0;
   }

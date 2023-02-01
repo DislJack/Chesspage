@@ -1,14 +1,6 @@
 .invitation__subtitle {
-  font-family: 'Noto Sans', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 130%;
-  color: #fff;
   margin: 40px 0 0;
   width: 520px;
-  position: relative;
-  z-index: 2;
 }
 
 @media (max-width: 1360px) {
@@ -29,6 +21,5 @@
   .invitation__subtitle {
     margin-top: 20px;
     width: 100%;
-    font-size: 12px;
   }
 }

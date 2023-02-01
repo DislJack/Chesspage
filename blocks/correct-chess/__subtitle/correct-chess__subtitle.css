@@ -1,21 +1,11 @@
 .correct-chess__subtitle {
   margin: 40px 0 0;
-  color: #fff;
-  font-family: 'Noto Sans', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 130%;
   width: 500px;
-  position: relative;
-  z-index: 2;
 }
 
 @media (max-width: 767px) {
   .correct-chess__subtitle {
     margin-top: 20px;
-    font-size: 12px;
     width: 100%;
-    line-height: 135%;
   }
 }
