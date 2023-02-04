@@ -1,0 +1,17 @@
+.title {
+  color: #fff;
+  font-family: 'Noto Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90%;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 40px;
+  }
+}

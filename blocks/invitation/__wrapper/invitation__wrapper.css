@@ -1,0 +1,25 @@
+.invitation__wrapper {
+  padding: 171px 160px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+@media (max-width: 1360px) {
+  .invitation__wrapper {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1023px) {
+  .invitation__wrapper {
+    align-items: flex-end;
+    padding: 121px 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .invitation__wrapper {
+    padding: 21px 20px 200px;
+  }
+}

@@ -1,0 +1,28 @@
+.correct-chess__image {
+  width: 416px;
+  background-image: url(../../../images/chess/blue.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 104px;
+  margin-top: 182px;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 1023px) {
+  .correct-chess__image {
+    margin-top: 212px;
+  }
+}
+
+@media (max-width: 767px) {
+  .correct-chess__image {
+    width: 100%;
+    height: auto;
+    min-height: 70px;
+    margin-top: 108px;
+    background-position: bottom;
+  }
+}

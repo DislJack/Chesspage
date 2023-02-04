@@ -1,0 +1,17 @@
+.footer__copyright {
+  font-family: 'Noto Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #8E9199;
+  margin: 20px 0 0;
+}
+
+@media (max-width: 767px) {
+  .footer__copyright {
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 12px;
+  }
+}

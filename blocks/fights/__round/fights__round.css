@@ -1,0 +1,25 @@
+.fights__round {
+  background-image: url(../../../images/rounds/colorful.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 440px 440px;
+  width: 440px;
+  height: 440px;
+  position: absolute;
+  bottom: -220px;
+  left: 100px;
+  transform: rotate(180deg);
+  z-index: 1;
+}
+
+@media (max-width: 1023px) {
+  .fights__round {
+    left: -220px;
+  }
+}
+
+@media (max-width: 767px) {
+  .fights__round {
+    display: none;
+  }
+}

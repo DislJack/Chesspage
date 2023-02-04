@@ -1,0 +1,28 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  list-style-type: none;
+  padding: 0;
+  margin: 110px 0 0 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1023px) {
+  .cards {
+    display: flex;
+    gap: 28px;
+    padding: 0 50px;
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cards {
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+  }
+}

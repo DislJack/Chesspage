@@ -1,0 +1,25 @@
+.invitation__subtitle {
+  margin: 40px 0 0;
+  width: 520px;
+}
+
+@media (max-width: 1360px) {
+  .invitation__subtitle {
+    width: 300px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .invitation__subtitle {
+    width: 478px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .invitation__subtitle {
+    margin-top: 20px;
+    width: 100%;
+  }
+}

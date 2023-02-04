@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Правильные шахматы</title>
+  <link rel="stylesheet" href="pages/index.css">
+  <link rel="icon" href="images/puppet.png">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper header__wrapper">
+      <div class="logo"></div>
+      <div class="header__registration">
+        <a class="header__link" href="#" target="_blank">Вступайте в клуб <span class="header__arrow-icon">&#129125;</span></a>
+        <button class="button button_type_registration button_place_header button_registration_opened" type="button">Зарегистрироваться</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="correct-chess">
+      <div class="wrapper correct-chess__wrapper">
+        <div class="correct-chess__rounds"></div>
+        <p class="correct-chess__club">Клуб</p>
+        <h1 class="title correct-chess__title">Правильные шахматы</h1>
+        <p class="paragraph correct-chess__subtitle">Приходите к нам, играть в шахматы! Сразитесь классическом поединке, блиц состязании и бою с гройсмейстером. </p>
+        <div class="correct-chess__image"></div>
+      </div>
+    </section>
+    <section class="team">
+      <div class="wrapper team__wrapper">
+        <h2 class="title team__title">Наша команда</h2>
+        <p class="paragraph team__subtitle">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно удовольствие!</p>
+        <button class="button button_type_arrow button_team_left" type="button" name="team-left">&larr;</button>
+        <button class="button button_type_arrow button_team_right" type="button" name="team-right">&rarr;</button>
+        <ul class="cards team__cards">
+          <li class="cards__item cards__item_type_team">
+            <img class="cards__image" src="images/masters/alexander.png" alt="Андрей">
+            <h3 class="cards__name">Андрей</h3>
+            <p class="paragraph cards__job">Шахматист, писатель.</p>
+          </li>
+          <li class="cards__item cards__item_type_team">
+            <img class="cards__image" src="images/masters/nikita.png" alt="Никита">
+            <h3 class="cards__name">Никита</h3>
+            <p class="paragraph cards__job">Шахматист, кулинар.</p>
+          </li>
+          <li class="cards__item cards__item_type_team">
+            <img class="cards__image" src="images/masters/alex.png" alt="Алексей">
+            <h3 class="cards__name">Алексей</h3>
+            <p class="paragraph cards__job">Шахматист, геймер.</p>
+          </li>
+        </ul>
+        <ul class="quantity">
+          <li class="quantity__count quantity__count_type_team"></li>
+          <li class="quantity__count quantity__count_type_team"></li>
+          <li class="quantity__count quantity__count_type_team"></li>
+        </ul>
+      </div>
+    </section>
+    <section class="invitation">
+      <div class="wrapper invitation__wrapper">
+        <h2 class="title invitation__title">Хочешь в комаду?</h2>
+        <p class="paragraph invitation__subtitle">Свяжись с нами и мы обсудим все детали присоеденения к команде.</p>
+        <div class="invitation__round-first"></div>
+        <div class="invitation__round-second"></div>
+      </div>
+    </section>
+    <section class="fights">
+      <div class="wrapper fights__wrapper">
+        <div class="fights__round"></div>
+        <h2 class="title fights__title">Сражения</h2>
+        <p class="paragraph fights__subtitle">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки — сыграйте с нашими шахматистами.</p>
+        <button class="button button_type_arrow button_fights_left" type="button" name="fights-left">&larr;</button>
+        <button class="button button_type_arrow button_fights_right" type="button" name="fights-right">&rarr;</button>
+        <ul class="cards fights__cards">
+          <li class="cards__item cards__item_type_fights">
+            <img class="cards__image" src="images/fights/first.png" alt="Двое играют в шахматы">
+          </li>
+          <li class="cards__item cards__item_type_fights">
+            <img class="cards__image" src="images/fights/second.png" alt="Шахматная доска">
+          </li>
+          <li class="cards__item cards__item_type_fights">
+            <img class="cards__image" src="images/fights/third.png" alt="Передача хода сопернику">
+          </li>
+        </ul>
+        <ul class="quantity">
+          <li class="quantity__count quantity__count_type_fights"></li>
+          <li class="quantity__count quantity__count_type_fights"></li>
+          <li class="quantity__count quantity__count_type_fights"></li>
+        </ul>
+        <div class="fights__chess"></div>
+      </div>
+    </section>
+    <div class="registration">
+      <div class="logo"></div>
+      <h2 class="registration__title">Регистрация</h2>
+      <form class="registration__form" name="registration-form">
+        <input class="registration__input" type="text" name="name" placeholder="Имя" required>
+        <input class="registration__input" type="email" name="email" placeholder="Email" required>
+        <button type="submit" class="button button_type_registration registration__button">Зарегистрироваться</button>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper footer__wrapper">
+      <div class="footer__container">
+        <div class="logo logo_place_footer"></div>
+        <button class="button button_type_registration button_registration_opened" type="button" >Зарегистрироваться</button>
+        <p class="paragraph">Шахматный клуб в Москве.</p>
+      </div>
+      <p class="footer__copyright">&copy; Chees Club.</p>
+    </div>
+  </footer>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.header__link {
+  font-family: 'Noto Sans', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  transition: 0.2s;
+}
+
+.header__link:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1023px) {
+  .header__link {
+    font-size: 13px;
+    line-height: 125%;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__link {
+    display: none;
+  }
+}

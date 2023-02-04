@@ -1,0 +1,11 @@
+.correct-chess__title {
+  margin: 70px 0 0;
+  width: 500px;
+}
+
+@media (max-width: 767px) {
+  .correct-chess__title {
+    margin-top: 61px;
+    width: 100%;
+  }
+}

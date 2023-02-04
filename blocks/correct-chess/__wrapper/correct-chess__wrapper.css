@@ -1,0 +1,15 @@
+.correct-chess__wrapper {
+  padding: 60px 160px 80px;
+}
+
+@media (max-width: 1023px) {
+  .correct-chess__wrapper {
+    padding: 60px 50px 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .correct-chess__wrapper {
+    padding: 50px 20px 20px;
+  }
+}

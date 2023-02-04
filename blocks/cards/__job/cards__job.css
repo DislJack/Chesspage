@@ -1,0 +1,9 @@
+.cards__job {
+  margin: 10px 0 0;
+}
+
+@media (max-width: 767px) {
+  .cards__job {
+    margin-top: 5px;
+  }
+}

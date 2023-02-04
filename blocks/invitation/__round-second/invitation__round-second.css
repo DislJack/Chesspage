@@ -1,0 +1,44 @@
+.invitation__round-second {
+  background-image: url(../../../images/rounds/colorful.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 440px 440px;
+  width: 440px;
+  height: 440px;
+  position: absolute;
+  bottom: 60px;
+  left: 220px;
+  z-index: 1;
+}
+
+@media (max-width: 1360px) {
+  .invitation__round-second {
+    transform: rotate(-90deg);
+    right: 220px;
+    left: auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .invitation__round-second {
+    transform: rotate(0);
+    width: 360px;
+    height: 360px;
+    background-size: 360px 360px;
+    right: auto;
+    left: -180px;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .invitation__round-second {
+    width: 100%;
+    height: auto;
+    min-height: 280px;
+    background-size: contain;
+    left: 0;
+    bottom: -140px;
+    right: 0;
+  }
+}
